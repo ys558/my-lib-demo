@@ -1,4 +1,5 @@
-// node 里不支持直接解构导入: import { fileURLToPath } from 'url'; <-- 错误
+// path 和 url 均属于node的内置模块, 均是commonJS 模块, 所以 这里里不支持直接解构导入: 
+// import { fileURLToPath } from 'url'; <-- 错误
 // 只能写成以下形式: 先整体导入再解构:
 import url from 'url';
 import path from 'path';
@@ -12,7 +13,7 @@ const webpackConfig = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'myLib.bundle.js',
+    filename: 'myLib.webpack.bundle.js',
   },
 };
 

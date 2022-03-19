@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "wp-build": "webpack --mode=none",
-    "es-build": "esbuild --bundle src/index.js --outfile=dist/main.js --minify"
+    "es-build": "esbuild --bundle src/index.js --outfile=dist/myLib.esbuild.bundle.js --minify"
   },
   "repository": {
     "type": "git",
