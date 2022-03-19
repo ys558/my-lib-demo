@@ -1,0 +1,20 @@
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "创建一个自己的js类库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ys558/my-lib-demo.git"
+  },
+  "author": "ys558",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ys558/my-lib-demo/issues"
+  },
+  "homepage": "https://github.com/ys558/my-lib-demo#readme",
+  "type": "module"
+}
