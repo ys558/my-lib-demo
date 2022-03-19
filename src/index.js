@@ -8,3 +8,6 @@ export function functionA() {
 export function functionB() {
   return valueB;
 }
+
+console.log(functionA())
+console.log(functionB())
