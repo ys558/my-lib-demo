@@ -1,3 +1,5 @@
+import moduleA from "./moduleA.js";
+
 const valueA = "function A",
   valueB = "function B";
 
@@ -11,3 +13,5 @@ export function functionB() {
 
 console.log(functionA())
 console.log(functionB())
+
+console.log(moduleA)
